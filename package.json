@@ -1,7 +1,8 @@
 {
   "name": "earnso-backbone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backbone app for http://www.earnso.com/ without backend",
+  "repository": "https://github.com/preetkam/earnso-backbone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
