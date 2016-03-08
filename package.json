@@ -1,0 +1,14 @@
+{
+  "name": "earnso-backbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harman kamboj <playcivil@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "kouto-swiss": "^0.11.14"
+  }
+}
