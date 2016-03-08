@@ -1,0 +1,24 @@
+$buttonback: #16A885
+$buttonhover: #006699
+$primary-color: #FFF
+$bpadding: 5px
+
+@import "partials/topbar"
+
+.button
+	background: $buttonback
+	border-radius: 8px
+	color: $primary-color
+	display: inline-block
+	padding: $bpadding
+	text-decoration: none
+.button:hover
+	background: $buttonhover
+.jumbo-button
+	@extend .button
+	padding: $bpadding + 30
+.light-button
+	@extend .button
+	background: $buttonback * 1.5
+.light-button:hover
+	background: $buttonhover * 1.5

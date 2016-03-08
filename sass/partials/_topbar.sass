@@ -1,0 +1,27 @@
+@mixin border-radius($radius)
+	border-radius: $radius
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+body
+	font: 100%
+	color: $primary-color
+	h1
+		color: red
+	img
+		border-radius: 999px
+		border: 3px solid green
+	.panel
+		border: 3px solid dodgerblue
+		background: #eea571
+		margin: 10px
+	.little-panel
+		@extend .panel
+		@include border-radius(5px)
+		font-size: 12px
+		padding: 5px
+	.big-panel
+		@extend .panel
+		@include border-radius(20px)
+		font-size: 32px
+		padding: 20px
