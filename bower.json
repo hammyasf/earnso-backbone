@@ -4,14 +4,14 @@
     "Harman Kamboj <playcivil@gmail.com>"
   ],
   "description": "Backbone app for http://www.earnso.com/ without backend",
-  "main": "index.htmk",
+  "main": "index.html",
   "moduleType": [],
   "keywords": [
     "harman",
     "kamboj",
     "eanrso"
   ],
-  "license": "MIT",
+  "license": "The Artistic License 2.0",
   "homepage": "https://preetkam.github.io/earnso-backbone",
   "ignore": [
     "**/.*",
